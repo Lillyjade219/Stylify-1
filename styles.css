@@ -1,0 +1,80 @@
+/* General styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #FFDDC1, #FF9A9E);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+}
+
+.camera-card, .photo-card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+video, img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #FF6F61;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #FF3B30;
+}
+
+#colors {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.color-block {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 5px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+}
+
+#photo {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}

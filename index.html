@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Color Analysis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Face Color Analysis</h1>
+        <div class="camera-card">
+            <video id="video" autoplay></video>
+            <button id="captureBtn">Capture Photo</button>
+        </div>
+        <div class="photo-card">
+            <img id="photo" alt="Captured Photo">
+            <div id="colors"></div>
+        </div>
+        <!-- Canvas element for capturing the image -->
+        <canvas id="canvas" style="display: none;"></canvas>
+    </div>
+
+    <!-- JavaScript at the bottom to ensure elements are loaded -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.2/color-thief.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
